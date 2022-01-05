@@ -1,0 +1,21 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+canvas{
+    animation-name: box;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box {
+    from {box-shadow: 5px 5px 37px blue;}
+    to {box-shadow: 5px 5px 37px black;}
+}
+
+h3{
+    font-size: 25px !important;
+
+}
+
